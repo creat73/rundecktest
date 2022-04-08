@@ -1,0 +1,19 @@
+<joblist>
+  <job>
+    <defaultTab>nodes</defaultTab>
+    <description></description>
+    <executionEnabled>true</executionEnabled>
+    <id>5e454ea8-dd27-4b19-9bcc-b1d6c75f64a1</id>
+    <loglevel>INFO</loglevel>
+    <name>JobRetryTest</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <plugins />
+    <scheduleEnabled>true</scheduleEnabled>
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>echo test</exec>
+      </command>
+    </sequence>
+    <uuid>5e454ea8-dd27-4b19-9bcc-b1d6c75f64a1</uuid>
+  </job>
+</joblist>
